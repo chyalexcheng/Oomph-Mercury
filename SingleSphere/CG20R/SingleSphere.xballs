@@ -1,0 +1,6 @@
+#!/bin/bash
+x=$(echo $0 | cut -c2-)
+file=$PWD$x
+dirname=`dirname "$file"`
+cd $dirname
+/storage1/usr/people/cheng/vipr/OomphMercuryCoupling/cmake-build-debug/XBalls/xballs -format 14 -f SingleSphere.data -s 0.000218182 -cmode 0 -cmax -sort  -o 45 -moh 250  $*

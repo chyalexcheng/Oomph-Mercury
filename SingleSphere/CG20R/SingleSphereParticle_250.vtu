@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- time 12480.3-->
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+<UnstructuredGrid>
+<Piece NumberOfPoints="2" NumberOfCells="0">
+<Points>
+  <DataArray type="Float32" Name="Position" NumberOfComponents="3" format="ascii">
+	199.64 -4410.74 499.321
+	-199.646 -4410.76 499.135
+  </DataArray>
+</Points>
+<PointData  Vectors="vector">
+  <DataArray type="Float32" Name="Velocity" NumberOfComponents="3" format="ascii">
+ -9.19538e-05 0.132739 0.02004
+ 0.000108627 0.132715 0.044163
+  </DataArray>
+  <DataArray type="Float32" Name="Radius" format="ascii">
+	100
+	100
+  </DataArray>
+  <DataArray type="Float32" Name="speciesType" format="ascii">
+	0
+	0
+  </DataArray>
+</PointData>
+<Cells>
+  <DataArray type="Int32" Name="connectivity" format="ascii">
+  </DataArray>
+  <DataArray type="Int32" Name="offsets" format="ascii">
+  </DataArray>
+  <DataArray type="UInt8"  Name="types" format="ascii">
+  </DataArray>
+</Cells>
+</Piece>
+</UnstructuredGrid>
+</VTKFile>

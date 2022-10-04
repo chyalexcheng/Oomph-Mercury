@@ -1,0 +1,253 @@
+MercuryDPM 0.14 name OneDimChainMercury revision 5237 repository https://svn.mercurydpm.org/SourceCode/Branches/VCouplingExplicitTest
+dataFile    fileType ONE_FILE saveCount 15 counter 105 lastSavedTimeStep 1556
+fStatFile   fileType ONE_FILE saveCount 15 counter 105 lastSavedTimeStep 1556
+eneFile     fileType ONE_FILE saveCount 15 counter 105 lastSavedTimeStep 1556
+restartFile fileType ONE_FILE saveCount 15 counter 105 lastSavedTimeStep 1556
+statFile    fileType ONE_FILE saveCount 15 counter 0
+interactionFile fileType NO_FILE saveCount 0 counter 0
+xMin -500 xMax 500 yMin -5000 yMax 5000 zMin -500 zMax 500
+timeStep 0.0642975133581383 time 100.046930785267 ntimeSteps 1556 timeMax 100
+systemDimensions 3 particleDimensions 3 gravity 0 0 0 writeVTK 1 NO_FILE NO_FILE 105 0 0 random  0 1103515245 12345 1073741824 607 273 784607267
+Species 1
+LinearViscoelasticReversibleAdhesiveSpecies id 0 density 2500 stiffness 40000000000 dissipation -0 adhesionForceMax 0 adhesionStiffness 40000000000
+Walls 0
+Boundaries 0
+Particles 200
+BaseParticle id 0 indSpecies 0 position -200 -5800 -200 orientation 1 0 0 0 velocity 0 0 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 0
+BaseParticle id 1 indSpecies 0 position -200 -5800 200 orientation 1 0 0 0 velocity 0 0 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 0
+BaseParticle id 2 indSpecies 0 position 200 -5800 -200 orientation 1 0 0 0 velocity 0 0 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 0
+BaseParticle id 3 indSpecies 0 position 200 -5800 200 orientation 1 0 0 0 velocity 0 0 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 0
+BaseParticle id 4 indSpecies 0 position -200 -5399.98749075111 -200 orientation 1 0 0 0 velocity 0 9.94974909482316e-05 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 5 indSpecies 0 position -200 -5399.98749075111 200 orientation 1 0 0 0 velocity 0 9.94974909482316e-05 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 6 indSpecies 0 position 200 -5399.98749075111 -200 orientation 1 0 0 0 velocity 0 9.94974909482316e-05 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 7 indSpecies 0 position 200 -5399.98749075111 200 orientation 1 0 0 0 velocity 0 9.94974909482316e-05 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 8 indSpecies 0 position -200 -4999.9744425107 -200 orientation 1 0 0 0 velocity 0 0.00073099908560021 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 9 indSpecies 0 position -200 -4999.9744425107 200 orientation 1 0 0 0 velocity 0 0.00073099908560021 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 10 indSpecies 0 position 200 -4999.9744425107 -200 orientation 1 0 0 0 velocity 0 0.00073099908560021 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 11 indSpecies 0 position 200 -4999.9744425107 200 orientation 1 0 0 0 velocity 0 0.00073099908560021 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 12 indSpecies 0 position -200 -4599.97321051843 -200 orientation 1 0 0 0 velocity 0 0.000683480219698168 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 13 indSpecies 0 position -200 -4599.97321051843 200 orientation 1 0 0 0 velocity 0 0.000683480219698168 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 14 indSpecies 0 position 200 -4599.97321051843 -200 orientation 1 0 0 0 velocity 0 0.000683480219698168 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 15 indSpecies 0 position 200 -4599.97321051843 200 orientation 1 0 0 0 velocity 0 0.000683480219698168 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 16 indSpecies 0 position -200 -4199.97075256443 -200 orientation 1 0 0 0 velocity 0 0.000714376945087676 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 17 indSpecies 0 position -200 -4199.97075256443 200 orientation 1 0 0 0 velocity 0 0.000714376945087676 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 18 indSpecies 0 position 200 -4199.97075256443 -200 orientation 1 0 0 0 velocity 0 0.000714376945087676 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 19 indSpecies 0 position 200 -4199.97075256443 200 orientation 1 0 0 0 velocity 0 0.000714376945087676 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 20 indSpecies 0 position -200 -3799.96907931294 -200 orientation 1 0 0 0 velocity 0 0.00140393113407092 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 21 indSpecies 0 position -200 -3799.96907931294 200 orientation 1 0 0 0 velocity 0 0.00140393113407092 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 22 indSpecies 0 position 200 -3799.96907931294 -200 orientation 1 0 0 0 velocity 0 0.00140393113407092 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 23 indSpecies 0 position 200 -3799.96907931294 200 orientation 1 0 0 0 velocity 0 0.00140393113407092 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 24 indSpecies 0 position -200 -3399.96725395033 -200 orientation 1 0 0 0 velocity 0 0.000961532067718815 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 25 indSpecies 0 position -200 -3399.96725395033 200 orientation 1 0 0 0 velocity 0 0.000961532067718815 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 26 indSpecies 0 position 200 -3399.96725395033 -200 orientation 1 0 0 0 velocity 0 0.000961532067718815 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 27 indSpecies 0 position 200 -3399.96725395033 200 orientation 1 0 0 0 velocity 0 0.000961532067718815 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 28 indSpecies 0 position -200 -2999.96336860639 -200 orientation 1 0 0 0 velocity 0 0.00126115382132592 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 29 indSpecies 0 position -200 -2999.96336860639 200 orientation 1 0 0 0 velocity 0 0.00126115382132592 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 30 indSpecies 0 position 200 -2999.96336860639 -200 orientation 1 0 0 0 velocity 0 0.00126115382132592 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 31 indSpecies 0 position 200 -2999.96336860639 200 orientation 1 0 0 0 velocity 0 0.00126115382132592 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 32 indSpecies 0 position -200 -2599.96267905245 -200 orientation 1 0 0 0 velocity 0 0.00104303529473902 0 angularVelocity 0 0 0 force 0 -7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 33 indSpecies 0 position -200 -2599.96267905245 200 orientation 1 0 0 0 velocity 0 0.00104303529473902 0 angularVelocity 0 0 0 force 0 -7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 34 indSpecies 0 position 200 -2599.96267905245 -200 orientation 1 0 0 0 velocity 0 0.00104303529473902 0 angularVelocity 0 0 0 force 0 -7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 35 indSpecies 0 position 200 -2599.96267905245 200 orientation 1 0 0 0 velocity 0 0.00104303529473902 0 angularVelocity 0 0 0 force 0 -7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 36 indSpecies 0 position -200 -2199.96286059447 -200 orientation 1 0 0 0 velocity 0 0.00128029834071132 0 angularVelocity 0 0 0 force 0 7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 37 indSpecies 0 position -200 -2199.96286059447 200 orientation 1 0 0 0 velocity 0 0.00128029834071132 0 angularVelocity 0 0 0 force 0 7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 38 indSpecies 0 position 200 -2199.96286059447 -200 orientation 1 0 0 0 velocity 0 0.00128029834071132 0 angularVelocity 0 0 0 force 0 7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 39 indSpecies 0 position 200 -2199.96286059447 200 orientation 1 0 0 0 velocity 0 0.00128029834071132 0 angularVelocity 0 0 0 force 0 7261680.60282362 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 40 indSpecies 0 position -200 -1799.96181087298 -200 orientation 1 0 0 0 velocity 0 0.000849874448323382 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 41 indSpecies 0 position -200 -1799.96181087298 200 orientation 1 0 0 0 velocity 0 0.000849874448323382 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 42 indSpecies 0 position 200 -1799.96181087298 -200 orientation 1 0 0 0 velocity 0 0.000849874448323382 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 43 indSpecies 0 position 200 -1799.96181087298 200 orientation 1 0 0 0 velocity 0 0.000849874448323382 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 44 indSpecies 0 position -200 -1399.95908140937 -200 orientation 1 0 0 0 velocity 0 0.000880176706884504 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 45 indSpecies 0 position -200 -1399.95908140937 200 orientation 1 0 0 0 velocity 0 0.000880176706884504 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 46 indSpecies 0 position 200 -1399.95908140937 -200 orientation 1 0 0 0 velocity 0 0.000880176706884504 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 47 indSpecies 0 position 200 -1399.95908140937 200 orientation 1 0 0 0 velocity 0 0.000880176706884504 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 48 indSpecies 0 position -200 -999.956220686127 -200 orientation 1 0 0 0 velocity 0 0.00103388027811014 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 49 indSpecies 0 position -200 -999.956220686127 200 orientation 1 0 0 0 velocity 0 0.00103388027811014 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 50 indSpecies 0 position 200 -999.956220686127 -200 orientation 1 0 0 0 velocity 0 0.00103388027811014 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 51 indSpecies 0 position 200 -999.956220686127 200 orientation 1 0 0 0 velocity 0 0.00103388027811014 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 52 indSpecies 0 position -200 -599.954264584219 -200 orientation 1 0 0 0 velocity 0 0.00250519874019097 0 angularVelocity 0 0 0 force 0 -243280569.989111 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 53 indSpecies 0 position -200 -599.954264584219 200 orientation 1 0 0 0 velocity 0 0.00250519874019097 0 angularVelocity 0 0 0 force 0 -243280569.989111 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 54 indSpecies 0 position 200 -599.954264584219 -200 orientation 1 0 0 0 velocity 0 0.00250519874019097 0 angularVelocity 0 0 0 force 0 -243280569.989111 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 55 indSpecies 0 position 200 -599.954264584219 200 orientation 1 0 0 0 velocity 0 0.00250519874019097 0 angularVelocity 0 0 0 force 0 -243280569.989111 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 56 indSpecies 0 position -200 -199.960346598468 -200 orientation 1 0 0 0 velocity 0 0.0107107303673026 0 angularVelocity 0 0 0 force 0 -539375469.859351 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 57 indSpecies 0 position -200 -199.960346598468 200 orientation 1 0 0 0 velocity 0 0.0107107303673026 0 angularVelocity 0 0 0 force 0 -539375469.859351 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 58 indSpecies 0 position 200 -199.960346598468 -200 orientation 1 0 0 0 velocity 0 0.0107107303673026 0 angularVelocity 0 0 0 force 0 -539375469.859351 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 59 indSpecies 0 position 200 -199.960346598468 200 orientation 1 0 0 0 velocity 0 0.0107107303673026 0 angularVelocity 0 0 0 force 0 -539375469.859351 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 60 indSpecies 0 position -200 200.020087000535 -200 orientation 1 0 0 0 velocity 0 0.0210812604330239 0 angularVelocity 0 0 0 force 0 -710738467.525971 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 61 indSpecies 0 position -200 200.020087000535 200 orientation 1 0 0 0 velocity 0 0.0210812604330239 0 angularVelocity 0 0 0 force 0 -710738467.525971 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 62 indSpecies 0 position 200 200.020087000535 -200 orientation 1 0 0 0 velocity 0 0.0210812604330239 0 angularVelocity 0 0 0 force 0 -710738467.525971 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 63 indSpecies 0 position 200 200.020087000535 200 orientation 1 0 0 0 velocity 0 0.0210812604330239 0 angularVelocity 0 0 0 force 0 -710738467.525971 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 64 indSpecies 0 position -200 599.982752137851 -200 orientation 1 0 0 0 velocity 0 0.0339055370918404 0 angularVelocity 0 0 0 force 0 -533281999.946666 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 65 indSpecies 0 position -200 599.982752137851 200 orientation 1 0 0 0 velocity 0 0.0339055370918404 0 angularVelocity 0 0 0 force 0 -533281999.946666 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 66 indSpecies 0 position 200 599.982752137851 -200 orientation 1 0 0 0 velocity 0 0.0339055370918404 0 angularVelocity 0 0 0 force 0 -533281999.946666 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 67 indSpecies 0 position 200 599.982752137851 200 orientation 1 0 0 0 velocity 0 0.0339055370918404 0 angularVelocity 0 0 0 force 0 -533281999.946666 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 68 indSpecies 0 position -200 999.932085225168 -200 orientation 1 0 0 0 velocity 0 0.0361408791269916 0 angularVelocity 0 0 0 force 0 247216907.705479 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 69 indSpecies 0 position -200 999.932085225168 200 orientation 1 0 0 0 velocity 0 0.0361408791269916 0 angularVelocity 0 0 0 force 0 247216907.705479 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 70 indSpecies 0 position 200 999.932085225168 -200 orientation 1 0 0 0 velocity 0 0.0361408791269916 0 angularVelocity 0 0 0 force 0 247216907.705479 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 71 indSpecies 0 position 200 999.932085225168 200 orientation 1 0 0 0 velocity 0 0.0361408791269916 0 angularVelocity 0 0 0 force 0 247216907.705479 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 72 indSpecies 0 position -200 1399.88759873518 -200 orientation 1 0 0 0 velocity 0 0.0298199868582728 0 angularVelocity 0 0 0 force 0 232192577.173009 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 73 indSpecies 0 position -200 1399.88759873518 200 orientation 1 0 0 0 velocity 0 0.0298199868582728 0 angularVelocity 0 0 0 force 0 232192577.173009 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 74 indSpecies 0 position 200 1399.88759873518 -200 orientation 1 0 0 0 velocity 0 0.0298199868582728 0 angularVelocity 0 0 0 force 0 232192577.173009 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 75 indSpecies 0 position 200 1399.88759873518 200 orientation 1 0 0 0 velocity 0 0.0298199868582728 0 angularVelocity 0 0 0 force 0 232192577.173009 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 76 indSpecies 0 position -200 1799.84891705962 -200 orientation 1 0 0 0 velocity 0 0.0287622033355991 0 angularVelocity 0 0 0 force 0 123177998.484607 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 77 indSpecies 0 position -200 1799.84891705962 200 orientation 1 0 0 0 velocity 0 0.0287622033355991 0 angularVelocity 0 0 0 force 0 123177998.484607 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 78 indSpecies 0 position 200 1799.84891705962 -200 orientation 1 0 0 0 velocity 0 0.0287622033355991 0 angularVelocity 0 0 0 force 0 123177998.484607 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 79 indSpecies 0 position 200 1799.84891705962 200 orientation 1 0 0 0 velocity 0 0.0287622033355991 0 angularVelocity 0 0 0 force 0 123177998.484607 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 80 indSpecies 0 position -200 2199.81331483402 -200 orientation 1 0 0 0 velocity 0 0.0207179976006535 0 angularVelocity 0 0 0 force 0 870723070.902386 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 81 indSpecies 0 position -200 2199.81331483402 200 orientation 1 0 0 0 velocity 0 0.0207179976006535 0 angularVelocity 0 0 0 force 0 870723070.902386 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 82 indSpecies 0 position 200 2199.81331483402 -200 orientation 1 0 0 0 velocity 0 0.0207179976006535 0 angularVelocity 0 0 0 force 0 870723070.902386 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 83 indSpecies 0 position 200 2199.81331483402 200 orientation 1 0 0 0 velocity 0 0.0207179976006535 0 angularVelocity 0 0 0 force 0 870723070.902386 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 84 indSpecies 0 position -200 2599.79948068519 -200 orientation 1 0 0 0 velocity 0 0.00405104919726418 0 angularVelocity 0 0 0 force 0 553365953.055618 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 85 indSpecies 0 position -200 2599.79948068519 200 orientation 1 0 0 0 velocity 0 0.00405104919726418 0 angularVelocity 0 0 0 force 0 553365953.055618 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 86 indSpecies 0 position 200 2599.79948068519 -200 orientation 1 0 0 0 velocity 0 0.00405104919726418 0 angularVelocity 0 0 0 force 0 553365953.055618 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 87 indSpecies 0 position 200 2599.79948068519 200 orientation 1 0 0 0 velocity 0 0.00405104919726418 0 angularVelocity 0 0 0 force 0 553365953.055618 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 88 indSpecies 0 position -200 2999.80252049607 -200 orientation 1 0 0 0 velocity 0 0.000933024751891915 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 89 indSpecies 0 position -200 2999.80252049607 200 orientation 1 0 0 0 velocity 0 0.000933024751891915 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 90 indSpecies 0 position 200 2999.80252049607 -200 orientation 1 0 0 0 velocity 0 0.000933024751891915 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 91 indSpecies 0 position 200 2999.80252049607 200 orientation 1 0 0 0 velocity 0 0.000933024751891915 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 92 indSpecies 0 position -200 3399.80681874844 -200 orientation 1 0 0 0 velocity 0 0.000960523639431773 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 93 indSpecies 0 position -200 3399.80681874844 200 orientation 1 0 0 0 velocity 0 0.000960523639431773 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 94 indSpecies 0 position 200 3399.80681874844 -200 orientation 1 0 0 0 velocity 0 0.000960523639431773 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 95 indSpecies 0 position 200 3399.80681874844 200 orientation 1 0 0 0 velocity 0 0.000960523639431773 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 96 indSpecies 0 position -200 3799.81135368539 -200 orientation 1 0 0 0 velocity 0 0.000989967938227344 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 97 indSpecies 0 position -200 3799.81135368539 200 orientation 1 0 0 0 velocity 0 0.000989967938227344 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 98 indSpecies 0 position 200 3799.81135368539 -200 orientation 1 0 0 0 velocity 0 0.000989967938227344 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 99 indSpecies 0 position 200 3799.81135368539 200 orientation 1 0 0 0 velocity 0 0.000989967938227344 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 100 indSpecies 0 position -200 4199.81615285959 -200 orientation 1 0 0 0 velocity 0 0.0010216226670455 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 101 indSpecies 0 position -200 4199.81615285959 200 orientation 1 0 0 0 velocity 0 0.0010216226670455 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 102 indSpecies 0 position 200 4199.81615285959 -200 orientation 1 0 0 0 velocity 0 0.0010216226670455 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 103 indSpecies 0 position 200 4199.81615285959 200 orientation 1 0 0 0 velocity 0 0.0010216226670455 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 104 indSpecies 0 position -200 4599.82124654537 -200 orientation 1 0 0 0 velocity 0 0.00105576393040314 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 105 indSpecies 0 position -200 4599.82124654537 200 orientation 1 0 0 0 velocity 0 0.00105576393040314 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 106 indSpecies 0 position 200 4599.82124654537 -200 orientation 1 0 0 0 velocity 0 0.00105576393040314 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 107 indSpecies 0 position 200 4599.82124654537 200 orientation 1 0 0 0 velocity 0 0.00105576393040314 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 108 indSpecies 0 position -200 4999.82666568899 -200 orientation 1 0 0 0 velocity 0 0.00109264376707999 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 109 indSpecies 0 position -200 4999.82666568899 200 orientation 1 0 0 0 velocity 0 0.00109264376707999 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 110 indSpecies 0 position 200 4999.82666568899 -200 orientation 1 0 0 0 velocity 0 0.00109264376707999 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 111 indSpecies 0 position 200 4999.82666568899 200 orientation 1 0 0 0 velocity 0 0.00109264376707999 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 112 indSpecies 0 position -200 5399.83243376811 -200 orientation 1 0 0 0 velocity 0 0.00113236386315199 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 113 indSpecies 0 position -200 5399.83243376811 200 orientation 1 0 0 0 velocity 0 0.00113236386315199 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 114 indSpecies 0 position 200 5399.83243376811 -200 orientation 1 0 0 0 velocity 0 0.00113236386315199 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 115 indSpecies 0 position 200 5399.83243376811 200 orientation 1 0 0 0 velocity 0 0.00113236386315199 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 116 indSpecies 0 position -200 5799.83851028664 -200 orientation 1 0 0 0 velocity 0 0.00117401420231357 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 117 indSpecies 0 position -200 5799.83851028664 200 orientation 1 0 0 0 velocity 0 0.00117401420231357 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 118 indSpecies 0 position 200 5799.83851028664 -200 orientation 1 0 0 0 velocity 0 0.00117401420231357 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 119 indSpecies 0 position 200 5799.83851028664 200 orientation 1 0 0 0 velocity 0 0.00117401420231357 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 120 indSpecies 0 position -200 6199.84512042036 -200 orientation 1 0 0 0 velocity 0 0.00122081723409902 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 121 indSpecies 0 position -200 6199.84512042036 200 orientation 1 0 0 0 velocity 0 0.00122081723409902 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 122 indSpecies 0 position 200 6199.84512042036 -200 orientation 1 0 0 0 velocity 0 0.00122081723409902 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 123 indSpecies 0 position 200 6199.84512042036 200 orientation 1 0 0 0 velocity 0 0.00122081723409902 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 124 indSpecies 0 position -200 6599.85232611427 -200 orientation 1 0 0 0 velocity 0 0.00127321909070109 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 125 indSpecies 0 position -200 6599.85232611427 200 orientation 1 0 0 0 velocity 0 0.00127321909070109 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 126 indSpecies 0 position 200 6599.85232611427 -200 orientation 1 0 0 0 velocity 0 0.00127321909070109 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 127 indSpecies 0 position 200 6599.85232611427 200 orientation 1 0 0 0 velocity 0 0.00127321909070109 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 128 indSpecies 0 position -200 6999.85989253187 -200 orientation 1 0 0 0 velocity 0 0.00132730649037942 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 129 indSpecies 0 position -200 6999.85989253187 200 orientation 1 0 0 0 velocity 0 0.00132730649037942 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 130 indSpecies 0 position 200 6999.85989253187 -200 orientation 1 0 0 0 velocity 0 0.00132730649037942 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 131 indSpecies 0 position 200 6999.85989253187 200 orientation 1 0 0 0 velocity 0 0.00132730649037942 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 132 indSpecies 0 position -200 7399.86839763173 -200 orientation 1 0 0 0 velocity 0 0.0013910961626306 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 133 indSpecies 0 position -200 7399.86839763173 200 orientation 1 0 0 0 velocity 0 0.0013910961626306 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 134 indSpecies 0 position 200 7399.86839763173 -200 orientation 1 0 0 0 velocity 0 0.0013910961626306 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 135 indSpecies 0 position 200 7399.86839763173 200 orientation 1 0 0 0 velocity 0 0.0013910961626306 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 136 indSpecies 0 position -200 7799.8773988692 -200 orientation 1 0 0 0 velocity 0 0.00145761845146937 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 137 indSpecies 0 position -200 7799.8773988692 200 orientation 1 0 0 0 velocity 0 0.00145761845146937 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 138 indSpecies 0 position 200 7799.8773988692 -200 orientation 1 0 0 0 velocity 0 0.00145761845146937 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 139 indSpecies 0 position 200 7799.8773988692 200 orientation 1 0 0 0 velocity 0 0.00145761845146937 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 140 indSpecies 0 position -200 8199.8876191627 -200 orientation 1 0 0 0 velocity 0 0.00153641274728797 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 141 indSpecies 0 position -200 8199.8876191627 200 orientation 1 0 0 0 velocity 0 0.00153641274728797 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 142 indSpecies 0 position 200 8199.8876191627 -200 orientation 1 0 0 0 velocity 0 0.00153641274728797 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 143 indSpecies 0 position 200 8199.8876191627 200 orientation 1 0 0 0 velocity 0 0.00153641274728797 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 144 indSpecies 0 position -200 8599.89880190892 -200 orientation 1 0 0 0 velocity 0 0.00162304939295874 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 145 indSpecies 0 position -200 8599.89880190892 200 orientation 1 0 0 0 velocity 0 0.00162304939295874 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 146 indSpecies 0 position 200 8599.89880190892 -200 orientation 1 0 0 0 velocity 0 0.00162304939295874 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 147 indSpecies 0 position 200 8599.89880190892 200 orientation 1 0 0 0 velocity 0 0.00162304939295874 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 148 indSpecies 0 position -200 8999.91120928779 -200 orientation 1 0 0 0 velocity 0 0.00172026639580809 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 149 indSpecies 0 position -200 8999.91120928779 200 orientation 1 0 0 0 velocity 0 0.00172026639580809 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 150 indSpecies 0 position 200 8999.91120928779 -200 orientation 1 0 0 0 velocity 0 0.00172026639580809 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 151 indSpecies 0 position 200 8999.91120928779 200 orientation 1 0 0 0 velocity 0 0.00172026639580809 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 152 indSpecies 0 position -200 9399.92519932206 -200 orientation 1 0 0 0 velocity 0 0.00183173742758926 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 153 indSpecies 0 position -200 9399.92519932206 200 orientation 1 0 0 0 velocity 0 0.00183173742758926 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 154 indSpecies 0 position 200 9399.92519932206 -200 orientation 1 0 0 0 velocity 0 0.00183173742758926 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 155 indSpecies 0 position 200 9399.92519932206 200 orientation 1 0 0 0 velocity 0 0.00183173742758926 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 156 indSpecies 0 position -200 9799.94125017683 -200 orientation 1 0 0 0 velocity 0 0.00196226100976228 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 157 indSpecies 0 position -200 9799.94125017683 200 orientation 1 0 0 0 velocity 0 0.00196226100976228 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 158 indSpecies 0 position 200 9799.94125017683 -200 orientation 1 0 0 0 velocity 0 0.00196226100976228 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 159 indSpecies 0 position 200 9799.94125017683 200 orientation 1 0 0 0 velocity 0 0.00196226100976228 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 160 indSpecies 0 position -200 10199.9599566377 -200 orientation 1 0 0 0 velocity 0 0.00211758233026974 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 161 indSpecies 0 position -200 10199.9599566377 200 orientation 1 0 0 0 velocity 0 0.00211758233026974 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 162 indSpecies 0 position 200 10199.9599566377 -200 orientation 1 0 0 0 velocity 0 0.00211758233026974 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 163 indSpecies 0 position 200 10199.9599566377 200 orientation 1 0 0 0 velocity 0 0.00211758233026974 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 164 indSpecies 0 position -200 10599.981768157 -200 orientation 1 0 0 0 velocity 0 0.00230112933488318 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 165 indSpecies 0 position -200 10599.981768157 200 orientation 1 0 0 0 velocity 0 0.00230112933488318 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 166 indSpecies 0 position 200 10599.981768157 -200 orientation 1 0 0 0 velocity 0 0.00230112933488318 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 167 indSpecies 0 position 200 10599.981768157 200 orientation 1 0 0 0 velocity 0 0.00230112933488318 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 168 indSpecies 0 position -200 11000.0079727911 -200 orientation 1 0 0 0 velocity 0 0.00252581071296034 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 169 indSpecies 0 position -200 11000.0079727911 200 orientation 1 0 0 0 velocity 0 0.00252581071296034 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 170 indSpecies 0 position 200 11000.0079727911 -200 orientation 1 0 0 0 velocity 0 0.00252581071296034 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 171 indSpecies 0 position 200 11000.0079727911 200 orientation 1 0 0 0 velocity 0 0.00252581071296034 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 172 indSpecies 0 position -200 11400.0399701427 -200 orientation 1 0 0 0 velocity 0 0.00280456361142202 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 173 indSpecies 0 position -200 11400.0399701427 200 orientation 1 0 0 0 velocity 0 0.00280456361142202 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 174 indSpecies 0 position 200 11400.0399701427 -200 orientation 1 0 0 0 velocity 0 0.00280456361142202 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 175 indSpecies 0 position 200 11400.0399701427 200 orientation 1 0 0 0 velocity 0 0.00280456361142202 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 176 indSpecies 0 position -200 11800.080955559 -200 orientation 1 0 0 0 velocity 0 0.00316933243726732 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 177 indSpecies 0 position -200 11800.080955559 200 orientation 1 0 0 0 velocity 0 0.00316933243726732 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 178 indSpecies 0 position 200 11800.080955559 -200 orientation 1 0 0 0 velocity 0 0.00316933243726732 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 179 indSpecies 0 position 200 11800.080955559 200 orientation 1 0 0 0 velocity 0 0.00316933243726732 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 180 indSpecies 0 position -200 12200.1344669035 -200 orientation 1 0 0 0 velocity 0 0.00365277244821702 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 181 indSpecies 0 position -200 12200.1344669035 200 orientation 1 0 0 0 velocity 0 0.00365277244821702 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 182 indSpecies 0 position 200 12200.1344669035 -200 orientation 1 0 0 0 velocity 0 0.00365277244821702 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 183 indSpecies 0 position 200 12200.1344669035 200 orientation 1 0 0 0 velocity 0 0.00365277244821702 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 184 indSpecies 0 position -200 12600.210601027 -200 orientation 1 0 0 0 velocity 0 0.00435558289843716 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 185 indSpecies 0 position -200 12600.210601027 200 orientation 1 0 0 0 velocity 0 0.00435558289843716 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 186 indSpecies 0 position 200 12600.210601027 -200 orientation 1 0 0 0 velocity 0 0.00435558289843716 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 187 indSpecies 0 position 200 12600.210601027 200 orientation 1 0 0 0 velocity 0 0.00435558289843716 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 188 indSpecies 0 position -200 13000.3281000236 -200 orientation 1 0 0 0 velocity 0 0.00546090949199896 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 189 indSpecies 0 position -200 13000.3281000236 200 orientation 1 0 0 0 velocity 0 0.00546090949199896 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 190 indSpecies 0 position 200 13000.3281000236 -200 orientation 1 0 0 0 velocity 0 0.00546090949199896 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 191 indSpecies 0 position 200 13000.3281000236 200 orientation 1 0 0 0 velocity 0 0.00546090949199896 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 192 indSpecies 0 position -200 13400.5445991377 -200 orientation 1 0 0 0 velocity 0 0.00754034991718226 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 193 indSpecies 0 position -200 13400.5445991377 200 orientation 1 0 0 0 velocity 0 0.00754034991718226 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 194 indSpecies 0 position 200 13400.5445991377 -200 orientation 1 0 0 0 velocity 0 0.00754034991718226 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 195 indSpecies 0 position 200 13400.5445991377 200 orientation 1 0 0 0 velocity 0 0.00754034991718226 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 196 indSpecies 0 position -200 13801.1242471661 -200 orientation 1 0 0 0 velocity 0 0.013223853701772 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 197 indSpecies 0 position -200 13801.1242471661 200 orientation 1 0 0 0 velocity 0 0.013223853701772 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 198 indSpecies 0 position 200 13801.1242471661 -200 orientation 1 0 0 0 velocity 0 0.013223853701772 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+BaseParticle id 199 indSpecies 0 position 200 13801.1242471661 200 orientation 1 0 0 0 velocity 0 0.013223853701772 0 angularVelocity 0 0 0 force 0 0 0 torque 0 0 0 radius 200 invMass 1.19366207318922e-11
+Interactions 36
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 79 83 timeStamp 1556 force 0 -1424089023.958 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 78 82 timeStamp 1556 force 0 -1424089023.958 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 77 81 timeStamp 1556 force 0 -1424089023.958 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 76 80 timeStamp 1556 force 0 -1424089023.958 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 75 79 timeStamp 1556 force 0 -1547267022.44261 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 74 78 timeStamp 1556 force 0 -1547267022.44261 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 73 77 timeStamp 1556 force 0 -1547267022.44261 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 72 76 timeStamp 1556 force 0 -1547267022.44261 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 55 59 timeStamp 1556 force 0 -243280569.989111 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 54 58 timeStamp 1556 force 0 -243280569.989111 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 53 57 timeStamp 1556 force 0 -243280569.989111 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 52 56 timeStamp 1556 force 0 -243280569.989111 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 83 87 timeStamp 1556 force 0 -553365953.055618 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 82 86 timeStamp 1556 force 0 -553365953.055618 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 81 85 timeStamp 1556 force 0 -553365953.055618 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 80 84 timeStamp 1556 force 0 -553365953.055618 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 59 63 timeStamp 1556 force 0 -782656039.848462 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 58 62 timeStamp 1556 force 0 -782656039.848462 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 57 61 timeStamp 1556 force 0 -782656039.848462 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 56 60 timeStamp 1556 force 0 -782656039.848462 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 35 39 timeStamp 1556 force 0 -7261680.60282362 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 34 38 timeStamp 1556 force 0 -7261680.60282362 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 33 37 timeStamp 1556 force 0 -7261680.60282362 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 32 36 timeStamp 1556 force 0 -7261680.60282362 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 67 71 timeStamp 1556 force 0 -2026676507.3211 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 66 70 timeStamp 1556 force 0 -2026676507.3211 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 65 69 timeStamp 1556 force 0 -2026676507.3211 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 64 68 timeStamp 1556 force 0 -2026676507.3211 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 63 67 timeStamp 1556 force 0 -1493394507.37443 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 62 66 timeStamp 1556 force 0 -1493394507.37443 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 61 65 timeStamp 1556 force 0 -1493394507.37443 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 60 64 timeStamp 1556 force 0 -1493394507.37443 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 68 72 timeStamp 1556 force 0 -1779459599.61562 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 69 73 timeStamp 1556 force 0 -1779459599.61562 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 70 74 timeStamp 1556 force 0 -1779459599.61562 0 torque 0 0 0
+LinearViscoelasticReversibleAdhesiveInteraction particleIds 71 75 timeStamp 1556 force 0 -1779459599.61562 0 torque 0 0 0
+hGrid method TOPDOWN distribution EXPONENTIAL cellOverSizeRatio 1 numberOfBuckets 2000 cellSizes 400 gridNeedsUpdate 0 updateEachTimeStep 1 currentMaxRelativeDisplacement 0 totalCurrentMaxRelativeDisplacement 0

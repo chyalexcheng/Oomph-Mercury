@@ -1,0 +1,6 @@
+#!/bin/bash
+x=$(echo $0 | cut -c2-)
+file=$PWD$x
+dirname=`dirname "$file"`
+cd $dirname
+/storage1/usr/people/cheng/vipr/OomphMercuryCoupling/cmake-build-debug/XBalls/xballs -format 14 -f oneDimChain.data -s 0.0012 -cmode 0 -cmax -sort  -o 250 -moh 250  $*
